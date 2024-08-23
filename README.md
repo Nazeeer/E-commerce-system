@@ -1,36 +1,124 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next-E-commerce System
 
-## Getting Started
+This project is a fully-featured e-commerce system built with Next.js for the front end and Strapi for the backend. The system includes user authentication, product management, shopping cart functionality, and payment processing using Stripe. Additionally, Cloudinary is used for image management.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Overview](#overview)
+- [Features](#features)
+- [Tech Stack](#Tech-Stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [Contact](#contact)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+The Next.js E-commerce System is designed to provide a seamless online shopping experience. It features a modern front end built with Next.js and a robust backend managed by Strapi. The system includes essential e-commerce functionalities such as product browsing, shopping cart management, and secure payment processing.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features
 
-## Learn More
+- User Authentication:
+  User login and sign-up using @clerk/nextjs.
+  Secure session management and user data protection.
+- Product Management:
+  Display all products.
+  Individual product pages with detailed information.
+- Shopping Cart:
+  Add, update, and remove items from the cart.
+  View cart summary with total price calculation.
+- Payment Processing:
+  Integration with Stripe for secure payments.
+  Order confirmation and payment status handling.
+- Image Management:
+  Cloudinary integration for storing and managing product images.
 
-To learn more about Next.js, take a look at the following resources:
+## Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Frontend:
+  Next.js
+  React
+  Tailwind CSS for styling
+  @clerk/nextjs for authentication
+  @stripe/react-stripe-js for Stripe integration
+- Backend:
+  Strapi for content management and API
+  Cloudinary for image management
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Installation
 
-## Deploy on Vercel
+To get started with the React Dashboard, follow these steps:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clone the repository:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```sh
+   git clone https://github.com/Nazeeer/E-commerce-system
+   cd E-commerce-system
+   ```
+
+2. Install the dependencies:
+
+   ```sh
+   npm install
+   ```
+
+3. Start the development server:
+   ```sh
+   npm run dev
+   ```
+
+The application will be available at `http://localhost:3000`.
+
+## Usage
+
+To use the Next.js E-commerce System, follow the installation steps above. Once the development server is running, you can access the application in your web browser at http://localhost:3000.
+
+Navigate through the products, add items to the shopping cart, and proceed with the checkout process to experience the full functionality of the system.
+
+## Screenshots
+
+Here are some screenshots of the E-commerce system:
+
+### Open The Website Without Login
+
+![Home Overview](./Design/1.png)
+
+### Login
+
+![Login](./Design/2.png)
+
+### Open The Website After Login
+
+![Home Overview](./Design/3.png)
+
+### All Products
+
+![All Products ](./Design/4.png)
+
+### Product Details
+
+![Product Details ](./Design/5.png)
+
+### Cart
+
+![ Cart ](./Design/6.png)
+
+### Products Cart
+
+![Products Cart ](./Design/7.png)
+
+### Payment
+
+![Payment](./Design/8.png)
+
+## Contributing
+
+    Contributions are welcome! Please feel free to submit a Pull Request.
+
+## Contact
+
+    For any inquiries or issues, please contact:
+    Name: Mohamed Nazeer
+    Email: mohamed55nazeer55@gmail.com.com
+    LinkedIn: https://www.linkedin.com/in/mohameddnazeer/
